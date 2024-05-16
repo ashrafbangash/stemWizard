@@ -17,7 +17,7 @@ const Header = () => {
             {/* header */}
             <div>
                 <img src='./assets/navbg.svg' alt='navbg' className='relative w-screen object-cover min-w-full h-auto' />
-                <div className='absolute w-full  top-4 '>
+                <div className='absolute w-full flex justify-center  top-4 left-1/2 -translate-x-1/2 '>
                     <div className='px-5 md:px-16 lg:px-20 flex justify-between w-full max-w-screen-max-screen'>
                     <div className='flex gap-4 text-white'>
                         <p className='flex items-center gap-2 text-base font-medium'><FaLocationDot />Location will be here</p>
@@ -47,7 +47,7 @@ const Header = () => {
   </p>
                     <p className="header-link">Home</p>
                     <p className="header-link">About</p>
-                    <p className="header-link">Colligiate Programs</p>
+                    <p className="header-link">Collegiate Programs</p>
                     <p className="header-link">Our Programs</p>
                     <div className='relative'>
                         <button onClick={handleMenu} className='bg-orange flex items-center py-3 text-base font-medium text-white  px-20 rounded-xl'>More <FaSortDown className='-mt-1' /></button>

@@ -16,6 +16,8 @@ module.exports = {
         pink:'#ED1566',
         blue:'#413ADA',
         redish:'#FFECE8',
+        redishdark:'#FFE1DB',
+        redishLight:'#FFF9EB',
         primary: {
           DEFAULT:'#a259ff',
           dark:'#cc147f'

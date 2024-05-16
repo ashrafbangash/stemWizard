@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
        
       </div>
-      <img src='./assets/cloudefooter.svg' alt='cloud' className='-mt-36 z-10 object-fill' />
+      <img src='./assets/cloudefooter.svg' alt='cloud' className='relative w-screen -mt-36 z-20 object-cover min-w-full h-auto' />
 
     </div>
     
