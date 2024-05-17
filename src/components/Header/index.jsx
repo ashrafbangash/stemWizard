@@ -16,10 +16,10 @@ const Header = () => {
         <div className=' w-full flex flex-col justify-center items-center bg-gray'>
             {/* header */}
             <div>
-                <img src='./assets/navbg.svg' alt='navbg' className='relative w-screen object-cover min-w-full h-auto' />
+                <img src='./assets/navbg.svg' alt='navbg' className='relative w-screen object-cover min-w-full h-20' />
                 <div className='absolute w-full flex justify-center  top-4 left-1/2 -translate-x-1/2 '>
                     <div className='px-5 md:px-16 lg:px-20 flex justify-between w-full max-w-screen-max-screen'>
-                    <div className='flex gap-4 text-white'>
+                    <div className='flex gap-4 flex-wrap text-white'>
                         <p className='flex items-center gap-2 text-base font-medium'><FaLocationDot />Location will be here</p>
                         <p className='flex items-center gap-2 text-base font-medium'><IoMail />info@stemwizardsacademia.com</p>
                     </div>

@@ -17,6 +17,10 @@ module.exports = {
         blue:'#413ADA',
         redish:'#FFECE8',
         redishdark:'#FFE1DB',
+        fb:'#1677F0',
+        link:'#2967B0',
+        wa:'#01E311',
+        yt:'#FF0109',
         redishLight:'#FFF9EB',
         primary: {
           DEFAULT:'#a259ff',

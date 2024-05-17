@@ -9,7 +9,7 @@
   -webkit-text-fill-color: transparent;
 }
 .wizard-gradiant {
-  background-image: linear-gradient(to right, #ED1566, #F8C853);
+  background-image: linear-gradient(to right, #ED1566, );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19,6 +19,21 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.insta-gradiant {
+  background-image: linear-gradient(to right, #413ADA,#ED1566, #F8C853);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 @layer utilities {
@@ -30,6 +45,15 @@
   }
   .sub-div{
     @apply flex flex-col justify-center  h-full  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen
+  }
+  .input-div{
+    @apply w-full border-b mb-10
+  }
+  .input-label{
+    @apply text-base font-medium mb-4
+  }
+  .input{
+    @apply w-full focus:bg-transparent focus:border-none bg-transparent focus:outline-none pl-1
   }
 
 }
