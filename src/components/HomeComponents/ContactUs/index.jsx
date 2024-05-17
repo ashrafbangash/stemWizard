@@ -1,9 +1,8 @@
 'use client'
 
-import { AiFillInstagram } from "react-icons/ai"
 import { FaFacebookF, FaLinkedinIn, FaLocationDot, FaYoutube } from "react-icons/fa6"
 import { FiArrowRight } from "react-icons/fi"
-import { IoLogoWhatsapp, IoMail, IoMailOutline } from "react-icons/io5"
+import { IoLogoWhatsapp,  IoMailOutline } from "react-icons/io5"
 
 // import React, { useEffect } from 'react'
 

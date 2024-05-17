@@ -9,7 +9,7 @@
   -webkit-text-fill-color: transparent;
 }
 .wizard-gradiant {
-  background-image: linear-gradient(to right, #ED1566, );
+  background-image: linear-gradient(to right, #ED1566, #F8C853);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -21,7 +21,7 @@
   -webkit-text-fill-color: transparent;
 }
 .insta-gradiant {
-  background-image: linear-gradient(to right, #413ADA,#ED1566, #F8C853);
+  background-image: linear-gradient(to right, #413ADA,#ED1566, #0EC167,);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
