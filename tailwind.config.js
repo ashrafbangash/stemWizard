@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/pages/about/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -16,6 +16,7 @@ module.exports = {
         gray:'#f3f4f6',
         pink:'#ED1566',
         blue:'#413ADA',
+        yellow:'#F8C853',
         redish:'#FFECE8',
         redishdark:'#FFE1DB',
         fb:'#1677F0',
