@@ -7,7 +7,7 @@ const WhatIsStem = () => {
             <div className=' sub-div'>
 <div className='flex justify-center gap-20 items-center relative'>
     <div>
-        <img src='./assets/whatisstem.svg' alt='stem' className='max-w-xl'/>
+        <img src='./assets/home/whatisstem.svg' alt='stem' className='max-w-xl'/>
     </div>
     <div>
         <div>
@@ -22,18 +22,18 @@ const WhatIsStem = () => {
 
     </div>
 
-    <img className='absolute top-10 left-0' src='./assets/space-roc.svg' alt='whatisstem'/>
-    <img className='absolute top-0 right-0 w-[98px] h-auto' src='./assets/spaceship.svg' alt='whatisstem'/>
-    <img className='absolute  left-1/2 -translate-x-1/2 top-0 ' src='./assets/mars1.svg' alt='whatisstem'/>
-    <img className='absolute -bottom-20 w-[120px] h-[120px] left-1/4' src='./assets/mars2.svg' alt='whatisstem'/>
-    <img className='absolute right-0 bottom-0' src='./assets/commas.svg' alt='whatisstem'/>
+    <img className='absolute top-10 left-0' src='./assets/home/space-roc.svg' alt='whatisstem'/>
+    <img className='absolute top-0 right-0 w-[98px] h-auto' src='./assets/home/spaceship.svg' alt='whatisstem'/>
+    <img className='absolute  left-1/2 -translate-x-1/2 top-0 ' src='./assets/home/mars1.svg' alt='whatisstem'/>
+    <img className='absolute -bottom-20 w-[120px] h-[120px] left-1/4' src='./assets/home/mars2.svg' alt='whatisstem'/>
+    <img className='absolute right-0 bottom-0' src='./assets/home/commas.svg' alt='whatisstem'/>
 </div>
 <div className='flex flex-col justify-center items-center mt-32 gap-6 '>
     <div className='relative'>
     <h1 className='text-[40px] font-medium'>
         Academy Highlights
     </h1>
-    <img src='./assets/flower.svg' alt='flower' className='absolute -right-16 -top-10' />
+    <img src='./assets/home/flower.svg' alt='flower' className='absolute -right-16 -top-10' />
     </div>
     <p className='text-2xl text-center max-w-5xl'>
     Stem Wizards Academia is a non-profit organization that has been providing continuing STEM Education for both schools and individuals in Pakistan. The purpose of our organization is to improve the future of our students and to promote individual well-being through enhanced learning, knowledge-sharing, and sustainable development.  Our aim is to teach kids between 10-13-year-old age groups with higher learning academic capabilities. We teach in areas of cutting-edge technology and non-traditional learning methods

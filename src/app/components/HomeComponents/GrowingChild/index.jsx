@@ -38,8 +38,8 @@ const GrowingChild = () => {
                 <div className='relative sub-div items-center mt-4'>
                     <h1 className='text-[40px] font-medium '>We Are Growing Child In</h1>
                     <img src="./assets/underline.svg" alt="underline" className='ml-32 max-w-xs mb-8' />
-                    <img src="./assets/rocket.svg" alt="underline" className='absolute top-0 left-1/4' />
-                    <img src="./assets/crane2.svg" alt="underline" className='absolute bottom-0 right-1/4 w-[166px] h-[166px]' />
+                    <img src="./assets/home/rocket.svg" alt="underline" className='absolute top-0 left-1/4' />
+                    <img src="./assets/home/crane2.svg" alt="underline" className='absolute bottom-0 right-1/4 w-[166px] h-[166px]' />
 
                     <div className='flex justify-center gap-10'>
                         {sections.map((section, index) => (

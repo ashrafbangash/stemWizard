@@ -28,9 +28,9 @@ const CourseOverView = () => {
         <div className='w-full flex flex-col justify-center items-center pb-6 sm:pb-10 md:pb-14   bg-white'>
             <div className='relative'>
             <img src="./assets/OverView/cloude.svg" alt="bg" className='-mt-5 z-10 w-screen relative object-cover min-w-full h-auto' />
-            <img src="./assets/rocket.svg" alt="bg" className='  z-20  absolute top-0 left-1/2 ' />
-            <img src="./assets/space-roc.svg" alt="bg" className='  z-20  absolute bottom-0  left-[16%]' />
-            <img src="./assets/mars1.svg" alt="bg" className='  z-20  absolute top-0 left-3/4 h-[120px] w-[120px] ' />
+            <img src="./assets/home/rocket.svg" alt="bg" className='  z-20  absolute top-0 left-1/2 ' />
+            <img src="./assets/home/space-roc.svg" alt="bg" className='  z-20  absolute bottom-0  left-[16%]' />
+            <img src="./assets/home/mars1.svg" alt="bg" className='  z-20  absolute top-0 left-3/4 h-[120px] w-[120px] ' />
             </div>
             {/* <img src="./assets/OverView/cloude.svg" alt="bg" className='absolute z-0 w-screen top-0  left-8 object-cover min-w-full h-auto' /> */}
 

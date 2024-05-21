@@ -13,13 +13,13 @@ const Hero = () => {
             <p className='text-base max-w-lg'>STEM Education, at its core, simply means educating students in four specific disciplines, namely, Science, Technology, Engineering, and Mathematics (collectively shortened as STEM).</p>
             <button className='bg-green py-3 px-6 flex items-center gap-2 w-fit rounded-xl text-white'>Let Me In Now <FiArrowRight /></button>
 
-            <img className='absolute -top-20 left-20 w-[90px] h-auto' src='./assets/book.svg' alt='book' />
-            <img className='absolute -top-20 right-0 w-[104px] h-auto' src='./assets/robot.svg' alt='robot' />
-            <img className='absolute bottom-6 right-20 w-[88px] h-auto' src='./assets/rocket.svg' alt='rocket' />
-            <img className='absolute -bottom-16 z-20 left-20 w-[77px] h-auto' src='./assets/crane2.svg' alt='crane1' />
+            <img className='absolute -top-20 left-20 w-[90px] h-auto' src='./assets/home/book.svg' alt='book' />
+            <img className='absolute -top-20 right-0 w-[104px] h-auto' src='./assets/home/robot.svg' alt='robot' />
+            <img className='absolute bottom-6 right-20 w-[88px] h-auto' src='./assets/home/rocket.svg' alt='rocket' />
+            <img className='absolute -bottom-16 z-20 left-20 w-[77px] h-auto' src='./assets/home/crane2.svg' alt='crane1' />
           </div>
           <div className='pb-20'>
-            <img src='./assets/heroimg.svg' alt='heroimg' className='max-w-2xl mt-4' />
+            <img src='./assets/home/heroimg.svg' alt='heroimg' className='max-w-2xl mt-4' />
           </div>
           <div className='absolute bottom-32 left-1/2 -translate-x-1/2'>
             <div className='flex gap-4 items-center'>
@@ -38,20 +38,20 @@ const Hero = () => {
         </div>
        
       </div>
-      <img src='./assets/cloudefooter.svg' alt='cloud' className='relative w-screen -mt-36 z-20 object-cover min-w-full h-auto' />
+      <img src='./assets/home/cloudefooter.svg' alt='cloud' className='relative w-screen -mt-36 z-20 object-cover min-w-full h-auto' />
 
     </div>
     
     <div className='bg-white flex justify-evenly flex-wrap z-20 py-6  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen '>
-          <img src='./assets/part9.svg' alt='part9'/>
-          <img src='./assets/part1.svg' alt='part1'/>
-          <img src='./assets/part8.svg' alt='part8'/>
-          <img src='./assets/part7.svg' alt='part7'/>
-          <img src='./assets/part6.svg' alt='part6'/>
-          <img src='./assets/part5.svg' alt='part5'/>
-          <img src='./assets/part4.svg' alt='part4'/>
-          <img src='./assets/part3.svg' alt='part3'/>
-          <img src='./assets/part2.svg' alt='part2'/>
+          <img src='./assets/home/part9.svg' alt='part9'/>
+          <img src='./assets/home/part1.svg' alt='part1'/>
+          <img src='./assets/home/part8.svg' alt='part8'/>
+          <img src='./assets/home/part7.svg' alt='part7'/>
+          <img src='./assets/home/part6.svg' alt='part6'/>
+          <img src='./assets/home/part5.svg' alt='part5'/>
+          <img src='./assets/home/part4.svg' alt='part4'/>
+          <img src='./assets/home/part3.svg' alt='part3'/>
+          <img src='./assets/home/part2.svg' alt='part2'/>
         </div>
     
     </>

@@ -59,7 +59,7 @@ input::-webkit-inner-spin-button {
     @apply text-base font-medium mb-4
   }
   .input{
-    @apply w-full focus:bg-transparent focus:border-none bg-transparent focus:outline-none pl-1
+    @apply w-full focus:bg-transparent focus:border-none py-1 bg-transparent focus:outline-none pl-1
   }
 
 }
