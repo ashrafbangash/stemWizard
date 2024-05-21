@@ -44,7 +44,7 @@ const StemCourseHero = () => {
                 <p className='h-2 w-3 bg-black  rounded-r-full rounded-tl-full rounded-bl-lg '></p>
     
             </div>
-            <button className='bg-green py-3 px-6 flex items-center gap-2 w-fit rounded-xl mt-10 text-white'>Let Me In Now <FiArrowRight /></button>
+            <button className='bg-green py-3 px-6 flex items-center gap-2 w-fit rounded-xl mt-10 text-white'>Register Now <FiArrowRight /></button>
             <img src="./assets/stemcourse/ico1.svg" alt="stemcourseicons" className='absolute top-[10%] left-[5%]' />
             <img src="./assets/stemcourse/ico2.svg" alt="stemcourseicons" className='absolute bottom-[10%] left-[10%]' />
             <img src="./assets/stemcourse/ico2.svg" alt="stemcourseicons" className='absolute top-[5%] right-[10%]' />

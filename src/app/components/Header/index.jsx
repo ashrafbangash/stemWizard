@@ -90,9 +90,9 @@ const Header = ({ bgColor }) => {
                             {menu && (
                                 <div className='transform z-20 transition-all duration-300 rounded-md ease-in-out absolute top-15 shadow-md left-0.5 bg-white p-6 flex flex-col gap-2'>
                                     <Link href={'/stemcourses'}><p className={`border-b border-black ${pathname === '/stemcourses' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Our STEM Courses</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>STEM Startup School</p></Link>
+                                    <Link href={'/stemstartup'}><p className={`border-b border-black ${pathname === '/stemstartup' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>STEM Startup School</p></Link>
                                     <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Earn With Us</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Events</p></Link>
+                                    <Link href={'/events'}><p className={`border-b border-black ${pathname === '/events' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Events</p></Link>
                                     <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Support Us</p></Link>
                                     <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Press</p></Link>
                                     <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>FAQS</p></Link>
