@@ -30,9 +30,9 @@ const Header = ({ bgColor }) => {
 
     return (
         <>
-            <div className={`' w-full flex flex-col justify-center items-center ${bgColor}`}>
+            <div className={`' z-10 w-full flex flex-col justify-center items-center ${bgColor}`}>
                 {/* header */}
-                <div >
+                <div className='z-10'>
                     <img src='./assets/home/navbg.svg' alt='navbg' className='relative w-screen object-cover min-w-full h-auto' />
                     <div className='absolute w-full flex justify-center  top-4 left-1/2 -translate-x-1/2 '>
                         <div className='px-5 md:px-16 lg:px-20 flex justify-between w-full max-w-screen-max-screen'>
@@ -55,7 +55,7 @@ const Header = ({ bgColor }) => {
 
                 {/* navbar */}
 
-                <div className='flex justify-between items-center mt-6  px-5 md:px-16 lg:px-20 rounded-md w-full max-w-screen-max-screen'>
+                <div className='flex justify-between z-10 items-center mt-6  px-5 md:px-16 lg:px-20 rounded-md w-full max-w-screen-max-screen'>
                     <img src='./assets/home/stemlogo.svg' alt='logo' className='h-16 w-[196px]' />
                     <div className='flex items-center gap-10 text-base font-medium'>
                         {links.map((link, index) => (
@@ -93,10 +93,10 @@ const Header = ({ bgColor }) => {
                                     <Link href={'/stemstartup'}><p className={`border-b border-black ${pathname === '/stemstartup' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>STEM Startup School</p></Link>
                                     <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Earn With Us</p></Link>
                                     <Link href={'/events'}><p className={`border-b border-black ${pathname === '/events' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Events</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Support Us</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Press</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>FAQS</p></Link>
-                                    <Link href={'./'}><p className={`border-b border-black ${pathname === './' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Blog</p></Link>
+                                    <Link href={'/support'}><p className={`border-b border-black ${pathname === '/support' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Support Us</p></Link>
+                                    <Link href={'/press'}><p className={`border-b border-black ${pathname === '/press' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Press</p></Link>
+                                    <Link href={'/faqs'}><p className={`border-b border-black ${pathname === '/faqs' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>FAQS</p></Link>
+                                    <Link href={'/blogs'}><p className={`border-b border-black ${pathname === '/blogs' && 'text-pink'} cursor-pointer hover:text-pink py-2 text-center`}>Blog</p></Link>
                                 </div>
                             )}
 
