@@ -8,7 +8,7 @@ const blogs = () => {
     <div>
         <Header bgColor={'bg-gray'}/>
         <BlogHero/>
-        <Footer/>
+        <Footer bgColor={'bg-gray'}/>
       
     </div>
   )
