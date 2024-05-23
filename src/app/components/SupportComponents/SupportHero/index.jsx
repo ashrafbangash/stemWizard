@@ -21,7 +21,7 @@ const SupportHero = () => {
 
           <p className='text-base mb-8 max-w-4xl  mt-2'>Thank you for considering supporting our organization, and for helping us to make a positive difference in the world.</p>
           <p className='text-2xl font-semibold mb-4  max-w-4xl '>
-          "Your donation has the power to transform lives - each dollar you contribute can make a significant difference to those in need."
+          &quot;Your donation has the power to transform lives - each dollar you contribute can make a significant difference to those in need.&quot;
           </p>
         </div>
 
