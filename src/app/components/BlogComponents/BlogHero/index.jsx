@@ -24,8 +24,8 @@ const BlogHero = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 {data.map((d,index)=>(
-    <Link href={`/blogs/${d.id}`}>
-    <div className="relative " key={index}>
+    <Link key={index} href={`/blogs/${d.id}`}>
+    <div className="relative " >
                     <img src="./assets/blog/blgbg.svg" alt="bg" className='scale-1' />
                     <div className='absolute top-0 py-10  px-7 text-white'>
                         <div className="flex justify-between items-end mb-2">
