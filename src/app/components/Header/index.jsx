@@ -40,7 +40,7 @@ const Header = ({ bgColor }) => {
         // { name: "My Earnings", path: "/careerearning" },
         { name: "Collegiate Program", path: "/collegiate" },
         { name: "Our Program", path: "/ourprogram" },
-        { name: "After School Program", path: "/afterschoolprogram" },
+        // { name: "After School Program", path: "/afterschoolprogram" },
         { name: "Courses", path: "/stemcourses" },
         { name: "Startup School", path: "/stemstartup" },
         // { name: "Earn With Us", path: "/" },
@@ -137,13 +137,13 @@ const Header = ({ bgColor }) => {
     
         <IoCloseSharp size={30} onClick={handleCloseSidebar}   className='absolute text-green top-6 right-4 ' />
        
-        <div className="flex flex-col justify-center items-center min-h-full w-full gap-8 mt-10">
+        <div className="flex flex-col justify-center items-center h-full  overflow-y-auto w-full gap-6  mt-10">
 
         
         {pages?.map((page, index) => (
             <Link href={page.path} key={index}>
       <h1
-        className={`text-base font-base cursor-pointer ${
+        className={`text-base font-base cursor-pointer  ${
           pathname === page.path ? "text-green" : "text-black"
         }`}
        
