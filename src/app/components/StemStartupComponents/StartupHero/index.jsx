@@ -20,12 +20,12 @@ const StartupHero = () => {
   return (
     <div className='main'>
         <div className="sub items-center ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 {data.map((d,index)=>(
                     <div key={index}>
                         <img src={d.img} alt="images" />
-                        <h1 className='text-[40px] font-semibold'>{d.name}</h1>
-                        <p className='text-2xl'>{d.role}</p>
+                        <h1 className='text-2xl text-center lg:text-start lg:text-[40px] font-semibold my-4'>{d.name}</h1>
+                        <p className='text-base text-center lg:text-start lg:text-2xl'>{d.role}</p>
                     </div>
 
                 ))}

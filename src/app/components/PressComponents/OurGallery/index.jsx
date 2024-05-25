@@ -4,8 +4,8 @@ const OurGallery = () => {
   return (
     <div className='main'>
         <div className="sub items-center">
-        <h1 className='text-[40px]  font-medium capitalize '>our Gallery</h1>
-                <img src="./assets/underline.svg " className='max-w-[243px] mb-10  ' alt="underline" />
+        <h1 className='text-2xl lg:text-[40px]  font-medium capitalize '>our Gallery</h1>
+                <img src="./assets/underline.svg " className='max-w-[143px] lg:max-w-[243px] mb-10 mt-2 ' alt="underline" />
 <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
     
                 <img src="./assets/press/pimg.svg" alt="image" />
@@ -14,9 +14,9 @@ const OurGallery = () => {
 </div>
 
 
-<h1 className='text-[40px]  font-medium capitalize mt-20 '>Our Youtube Channel</h1>
-                <img src="./assets/underline.svg " className='max-w-[243px] mb-10  ' alt="underline" />
-<div className='relative z-0'>
+<h1 className='text-2xl lg:text-[40px]  font-medium capitalize mt-20 '>Our Youtube Channel</h1>
+                <img src="./assets/underline.svg " className='max-w-[243px] mb-10  mt-2' alt="underline" />
+<div className='relative z-0 overflow-hidden'>
                         <img src="./assets/press/pbg.svg" alt="press" className='z-10 ml-10' />
                         <img src="./assets/press/pborder.svg" alt="press" className='absolute z-0 top-0 -left-10' />
                         <img src="./assets/press/ppimg.png" alt="press" className='absolute z-0 top-0' />

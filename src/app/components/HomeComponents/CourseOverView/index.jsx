@@ -36,17 +36,17 @@ const CourseOverView = () => {
 
             <div className='relative sub-div items-center mt-4'>
                 <div className='flex justify-center items-center flex-col'>
-                    <h1 className='text-[40px] font-medium'>Course Overview</h1>
-                    <img className='ml-32 max-w-[193px]' src="./assets/underline.svg" alt="underline" />
+                    <h1 className='text-2xl md:text-[40px] font-medium'>Course Overview</h1>
+                    <img className=' mx-auto md:mx-0 md:ml-32 max-w-[193px]' src="./assets/underline.svg" alt="underline" />
                     <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  mt-10 relative  gap-10'>
     {sections.map((section, index) => (
-      <div key={index} className={`flex flex-col items-center  min-h-[473px] ${section.class}`}>
+      <div key={index} className={`flex flex-col items-center   lg:min-h-[473px] ${section.class}`}>
         <div className='relative mb-16'>
           <img src={section.imgSrc} alt='' />
           <img src={section.img1Src} alt='' className='absolute top-6 left-10' />
         </div>
-        <h1 className='text-[28px] font-medium'>{section.title}</h1>
-        <p className='text-base text-center px-10'>{section.description}</p>
+        <h1 className='text-base md:text-[28px] font-medium'>{section.title}</h1>
+        <p className='text-xs md:text-base text-center px-10'>{section.description}</p>
       </div>
     ))}
     <img src="./assets/OverView/connect.svg" alt="connect" className='top-32 hidden xl:block absolute left-1/2 -translate-x-1/2' />

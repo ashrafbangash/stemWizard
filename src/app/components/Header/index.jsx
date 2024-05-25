@@ -139,15 +139,16 @@ const Header = ({ bgColor }) => {
 
         
         {pages?.map((page, index) => (
+            <Link href={page.path} key={index}>
       <h1
-        key={index}
         className={`text-xl font-base cursor-pointer ${
           pathname === page.path ? "text-green" : "text-black"
         }`}
-        onClick={() => Navigate(page.path)}
+       
       >
         {page.name}
       </h1>
+      </Link>
     ))}
 
 

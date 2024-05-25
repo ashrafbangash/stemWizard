@@ -6,7 +6,7 @@ import React from 'react'
 const Support = () => {
   return (
     <div>
-      <Header bgColor={'bg-gray'}/>
+      <Header bgColor={'bg-white lg:bg-gray'}/>
       <SupportHero/>
       <Footer/>
     </div>
