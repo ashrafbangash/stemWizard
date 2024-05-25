@@ -21,13 +21,13 @@ const AboutHero = () => {
                     <p className='text-base mb-8 max-w-4xl text-center'> Students and youth have a sense of curiosity that constantly looks for activities that can challenge them. Keeping this inquisitiveness and curiosity sparked helps them to maximize their capacities. Science camps, like us, assist students to draw inferences, drive connections, and explore deeper meaning and understanding of fields that interest them.</p>
                 </div>
 
-                <img src="./assets/abouthero/ico1.svg" alt="icons" className='absolute right-1/4 top-[15%]' />
-                <img src="./assets/abouthero/ico2.svg" alt="icons" className='absolute right-[10%] top-[25%]' />
-                <img src="./assets/abouthero/ico3.svg" alt="icons" className='absolute left-[10%] top-[15%]' />
-                <img src="./assets/abouthero/ico4.svg" alt="icons" className='absolute bottom-0 right-[5%]' />
-                <img src="./assets/abouthero/ico1.svg" alt="icons" className='absolute bottom-[15%] left-[15%]' />
+                <img src="./assets/abouthero/ico1.svg" alt="icons" className='absolute hidden lg:block right-1/4 top-[15%]' />
+                <img src="./assets/abouthero/ico2.svg" alt="icons" className='absolute hidden lg:block right-[10%] top-[25%]' />
+                <img src="./assets/abouthero/ico3.svg" alt="icons" className='absolute hidden lg:block left-[10%] top-[15%]' />
+                <img src="./assets/abouthero/ico4.svg" alt="icons" className='absolute hidden lg:block bottom-0 right-[5%]' />
+                <img src="./assets/abouthero/ico1.svg" alt="icons" className='absolute hidden lg:block bottom-[15%] left-[15%]' />
             </div>
-                <img src="./assets/abouthero/abhfooter.svg" alt="foot" className='-mt-52 z-20 w-screen  object-cover min-w-full h-auto' />
+                <img src="./assets/abouthero/abhfooter.svg" alt="foot" className='md:-mt-32 xl:-mt-52 z-20 w-screen  object-cover min-w-full h-auto' />
         </div>
     )
 }

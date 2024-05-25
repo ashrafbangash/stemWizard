@@ -23,7 +23,7 @@ const NewsAndHeadlines = () => {
             <h1 className='text-[40px] font-medium mb-10' >News And Headline</h1>
             <p className='text=2xl font-medium'>“Here no Fish will be forced to fly and no Bird will be forced to swim.”</p>
             <p className='text-base font-medium mb-4'>Motto of Ottoman Empire schools</p>
-            <div className='grid grid-cols-2 gap-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
     {newsItems.map((item, index) => (
       <div key={index} className='flex flex-col '>
         <img src={item.imgSrc} alt={item.title} />
