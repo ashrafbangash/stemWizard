@@ -37,11 +37,13 @@ const Header = ({ bgColor }) => {
         { name: "Book Online", path: "/bookonline" },
         { name: "Home", path: "/" },
         { name: "About", path: "/about" },
-        { name: "My Earnings", path: "/careerearning" },
-        { name: "Collegiate", path: "/collegiate" },
-        { name: "Stem Courses", path: "/stemcourses" },
-        { name: "Stem Startup School", path: "/stemstartup" },
-        { name: "Earn With Us", path: "/" },
+        // { name: "My Earnings", path: "/careerearning" },
+        { name: "Collegiate Program", path: "/collegiate" },
+        { name: "Our Program", path: "/ourprogram" },
+        { name: "After School Program", path: "/afterschoolprogram" },
+        { name: "Courses", path: "/stemcourses" },
+        { name: "Startup School", path: "/stemstartup" },
+        // { name: "Earn With Us", path: "/" },
         { name: "Events", path: "/events" },
         { name: "Supports", path: "/support" },
         { name: "Press", path: "/press" },
@@ -131,17 +133,17 @@ const Header = ({ bgColor }) => {
                 </div>
             </div>
 
-            <div className={`fixed top-0  right-0 z-50 min-h-screen px-8 py-4 ease-in-out duration-500 overflow-y-auto transition-transform ${showSidebar ? "-translate-x-0 " : "translate-x-full"} bg-white min-w-[325px]  `}>
+            <div className={`fixed top-0   right-0 z-50 min-h-screen px-8 py-4 ease-in-out duration-500 overflow-y-auto transition-transform ${showSidebar ? "-translate-x-0 " : "translate-x-full"} bg-white min-w-[325px]  `}>
     
         <IoCloseSharp size={30} onClick={handleCloseSidebar}   className='absolute text-green top-6 right-4 ' />
        
-        <div className="flex flex-col justify-center items-center min-h-full w-full gap-8 mt-20">
+        <div className="flex flex-col justify-center items-center min-h-full w-full gap-8 mt-10">
 
         
         {pages?.map((page, index) => (
             <Link href={page.path} key={index}>
       <h1
-        className={`text-xl font-base cursor-pointer ${
+        className={`text-base font-base cursor-pointer ${
           pathname === page.path ? "text-green" : "text-black"
         }`}
        

@@ -38,8 +38,8 @@ const WorkWithus = () => {
             <div className=' px-4 lg:px-0 items-center'>
                 <div className='flex justify-center my-8 flex-col items-center'>
 
-                    <h1 className='text-[40px] text-center font-medium'>Work With Us</h1>
-                    <img src="./assets/underline.svg " className='max-w-[193px]' alt="underline" />
+                    <h1 className='text-2xl lg:text-[40px] text-center font-medium'>Work With Us</h1>
+                    <img src="./assets/underline.svg " className='max-w-[193px] mt-2' alt="underline" />
                 </div>
                 <div className='grid grid-cols-1 xl:grid-cols-2 gap-8'>
                     {items.map((item, index) => (
@@ -63,8 +63,8 @@ const WorkWithus = () => {
             <img src="./assets/work/header.svg" alt="bg" className='mt-20 z-10 w-screen relative object-cover min-w-full h-auto' />
             <div className='w-full flex flex-col justify-center items-center  bg-redishdark'>
                 <div className='sub-div items-center relative'>
-                    <h1 className='text-[40px] text-center font-medium'>Work With Us</h1>
-                    <img src="./assets/underline.svg " className='max-w-[193px]' alt="underline" />
+                    <h1 className='text-2xl lg:text-[40px] text-center font-medium'>Work With Us</h1>
+                    <img src="./assets/underline.svg " className='max-w-[193px] mt-2' alt="underline" />
 
                     <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 mb-8'>
                         {testimonials.map((testimonial, index) => (

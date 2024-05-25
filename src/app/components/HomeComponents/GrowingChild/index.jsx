@@ -38,7 +38,7 @@ const GrowingChild = () => {
                 <img src="./assets/growingChild/cloude2.svg" alt="cloude" className='relative w-screen object-cover min-w-full h-auto' />
                 <div className='relative sub-div items-center mt-4'>
                     <h1 className='text-2xl md:text-[40px] font-medium '>We Are Growing Child In</h1>
-                    <img src="./assets/underline.svg" alt="underline" className='ml-32 max-w-xs mb-8' />
+                    <img src="./assets/underline.svg" alt="underline" className='mx-auto mt-2 max-w-xs mb-8' />
                     <img src="./assets/home/rocket.svg" alt="underline" className='absolute hidden lg:block top-0 left-1/4' />
                     <img src="./assets/home/crane2.svg" alt="underline" className='absolute hidden lg:block bottom-0 right-1/4 w-[166px] h-[166px]' />
 

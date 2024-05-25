@@ -41,7 +41,7 @@ const IntlComp = () => {
   return (
     <div className='main'>
       <div className="sub items-center overflow-hidden relative">
-        <h1 className='text-[40px]  font-medium capitalize text-center lg:text-start'>International Competitions</h1>
+        <h1 className='text-2xl lg:text-[40px]  font-medium capitalize text-center lg:text-start'>International Competitions</h1>
         <img src="./assets/underline.svg " className='max-w-[243px] mb-10 lg:ml-60 mx-auto' alt="underline" />
         <div className='max-w-4xl'>
           <p className='text-center lg:text-start  text-xl lg:text-[28px] font-medium mb-4  max-w-4xl self-start' >FIRST ROBOTICS COMPETITION</p>

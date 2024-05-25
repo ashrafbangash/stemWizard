@@ -14,7 +14,7 @@ const Footer = ({bgColor}) => {
                     </div>
                     <p className="text-base font-medium hidden lg:block">©2023 by STEM Wizards Academia. </p>
                     <div className="gap-6 flex flex-col">
-                        <p className="text-2xl font-semibold">Find Us On</p>
+                        <p className="text-xl md:text-2xl font-semibold">Find Us On</p>
                         <div className='flex gap-4 items-center '>
                             <span className="h-8 w-8 border p-1 flex justify-center items-center text-fb border-fb"><p><FaFacebookF /></p></span>
                             <span className="h-8 w-8 border p-1 flex justify-center items-center text-link border-link"><p><FaLinkedinIn /></p></span>

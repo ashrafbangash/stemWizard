@@ -11,14 +11,14 @@ const WhatIsStem = () => {
     </div>
     <div className='order-1 xl:order-2 text-center xl:text-start'>
         <div>
-            <h1 className='text-[40px] font-semibold'>What Is Stem?</h1>
-            <img src="./assets/underline.svg" alt="underline" />
+            <h1 className='text-2xl lg:text-[40px] font-semibold'>What Is Stem?</h1>
+            <img src="./assets/underline.svg" alt="underline" className='mt-2' />
         </div>
         <p className='text-2xl md:text-[40px] font-semibold max-w-xl leading-tight text-gradiant mt-6'>It’s Never Too Early to Start Learning</p>
         <p className='max-w-lg mt-6 text-base md:text-2xl'>STEM Education, at its core, simply means educating students in four specific disciplines, namely, Science, Technology, Engineering, and Mathematics (collectively shortened as STEM).</p>
         <button className='text-blue text-base mt-6 '>Read More...</button>
 
-        <button className='bg-green py-3 justify-self-center px-6 flex items-center gap-2 w-fit rounded-xl text-white mt-6'>Explore More <FiArrowRight /></button>
+        <button className='bg-green py-3 justify-self-center mx-auto lg:mx-0 px-6 flex items-center gap-2 w-fit rounded-xl text-white mt-6'>Explore More <FiArrowRight /></button>
 
     </div>
 
