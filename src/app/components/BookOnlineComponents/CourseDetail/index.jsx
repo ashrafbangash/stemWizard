@@ -22,7 +22,7 @@ const CourseDetail = () => {
                             <p className='text-xs xl:text-base px-10   xl:pr-10 xl:pl-0 capitalize '>
                             This is a summary of your online course. Include an overall description of the class, significant concepts that are taught and any other relevant information that would be helpful for a potential student. It’s also a good idea to mention any specific requirements for materials or time commitment outside of class.
                             </p>
-                           <img src="/assets/ourprogram/onlineimg.svg" alt="" className='xl:hidden block mx-auto mt-4 mr-2 lg:mx-0' />
+                           <img src="/assets/bookonline/1main.svg" alt="" className='xl:hidden block mx-auto mt-4 mr-2 lg:mx-0' />
                             <h1 className='text-base ml-12 xl:ml-0 xl:text-2xl pr-20 xl:pr-0 leading-tight capitalize font-semibold hidden xl:block mt-5'>Contact Details</h1>
                             <p className='text-xs xl:text-base capitalize hidden xl:block'>6477812408  </p>
                             <p className='text-xs xl:text-base capitalize hidden xl:block'>sania.khan@stemwizardsacademia.com</p>
@@ -34,7 +34,7 @@ const CourseDetail = () => {
 
                             </div>
                         </div>
-                        <img src="/assets/ourprogram/onlineimg.svg" alt="" className='hidden xl:block' />
+                        <img src="/assets/bookonline/1main.svg" alt="" className='hidden xl:block' />
 
 
                     </div>
