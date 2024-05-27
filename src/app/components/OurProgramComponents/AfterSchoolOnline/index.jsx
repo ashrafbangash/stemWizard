@@ -53,35 +53,35 @@ const AfterSchoolOnline = () => {
                 </div>
 
                 <div className='relative max-w-sm xl:max-w-full mb-16'>
-                <img src="./assets/ourprogram/onlinebg2.svg" alt="onlinebg" className=' hidden xl:block     ' />
+                    <img src="./assets/ourprogram/onlinebg2.svg" alt="onlinebg" className=' hidden xl:block     ' />
                     <img src="./assets/ourprogram/onlinembg2.svg" alt="onlinebg" className='mx-auto block xl:hidden' />
-                <div className='absolute sm:ml-6 top-0 xl:top-1/2 xl:-translate-y-1/2 grid grid-cols-1 xl:grid-cols-2 items-center'>
-                <img src="./assets/ourprogram/onlineimg2.svg" alt="" className='hidden xl:block' />
+                    <div className='absolute sm:ml-6 top-0 xl:top-1/2 xl:-translate-y-1/2 grid grid-cols-1 xl:grid-cols-2 items-center'>
+                        <img src="./assets/ourprogram/onlineimg2.svg" alt="" className='hidden xl:block' />
 
-                    <div className='pb-2 pt-16        xl:pl-6 xl:pr-32'>
-                        <h1 className='text-xl ml-12 xl:ml-0 xl:text-[40px]  font-medium mb-4'>IN-HOUSE</h1>
-                        <h1 className='text-xl ml-12 xl:ml-0 xl:text-[40px] pr-20 xl:pr-0 leading-tight capitalize font-medium'>robo googler program grades 7-10</h1>
-                        <p className='text-xs ml-12 xl:ml-0 xl:text-base capitalize pr-20'>CS Fundamental Program  is a 2 semester or full year course program which includes:</p>
-                        <ul className='text-xs xl:text-base list-disc ml-12 xl:ml-4 capitalize space-y-1'>
-                            <li>problem saving and computing </li>
-                            <li>web app development </li>
-                            <li>app developement </li>
-                            <li>game development</li>
-                            <li>physucal computing </li>
-                            <li>data and society</li>
-                            <li>ai and machine learning</li>
-                            
-                        </ul>
-                     
+                        <div className='pb-2 pt-16        xl:pl-6 xl:pr-32'>
+                            <h1 className='text-xl ml-12 xl:ml-0 xl:text-[40px]  font-medium mb-4'>IN-HOUSE</h1>
+                            <h1 className='text-xl ml-12 xl:ml-0 xl:text-[40px] pr-20 xl:pr-0 leading-tight capitalize font-medium'>robo googler program grades 7-10</h1>
+                            <p className='text-xs ml-12 xl:ml-0 xl:text-base capitalize pr-20'>CS Fundamental Program  is a 2 semester or full year course program which includes:</p>
+                            <ul className='text-xs xl:text-base list-disc ml-12 xl:ml-4 capitalize space-y-1'>
+                                <li>problem saving and computing </li>
+                                <li>web app development </li>
+                                <li>app developement </li>
+                                <li>game development</li>
+                                <li>physucal computing </li>
+                                <li>data and society</li>
+                                <li>ai and machine learning</li>
+
+                            </ul>
+
+                        </div>
+                        <img src="./assets/ourprogram/onlineimg2.svg" alt="" className='block xl:hidden' />
+
+
                     </div>
-                <img src="./assets/ourprogram/onlineimg2.svg" alt="" className='block xl:hidden' />
-
 
                 </div>
-                
-            </div>
 
-<div className='relative max-w-sm xl:max-w-full mb-10'>
+                <div className='relative max-w-sm xl:max-w-full mb-10'>
                     <img src="./assets/ourprogram/onlinebg3.svg" alt="onlinebg" className=' hidden xl:block     ' />
                     <img src="./assets/ourprogram/onlinembg3.svg" alt="onlinebg" className='mx-auto block xl:hidden' />
                     <div className='absolute sm:ml-6 top-0 xl:top-1/2 xl:-translate-y-1/2 grid grid-cols-1 xl:grid-cols-2 items-center'>
