@@ -91,16 +91,25 @@ const Header = ({ bgColor }) => {
                   Find Us On
                 </p>
                 <p>
-                  <FaFacebookF />
+                  <Link href="https://www.facebook.com/stemeducation21/">
+                    <FaFacebookF />
+                  </Link>
                 </p>
                 <p>
-                  <FaLinkedinIn />
+                  <Link href="https://www.linkedin.com/company/stem-wizards-academia/mycompany/">
+                    <FaLinkedinIn />
+                  </Link>
                 </p>
                 <p>
-                  <AiFillInstagram />
+                  <Link href="https://www.linkedin.com/company/stem-wizards-academia/">
+                    <AiFillInstagram />
+                  </Link>
                 </p>
+
                 <p>
-                  <FaYoutube />
+                  <Link href="https://www.youtube.com/channel/UCPmkLMMFDblPo0kPDEhw5Ow">
+                    <FaYoutube />
+                  </Link>
                 </p>
               </div>
             </div>
