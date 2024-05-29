@@ -3,69 +3,68 @@
 @tailwind utilities;
 
 .stem-gradiant {
-  background-image: linear-gradient(to right, #F8C853, #0EC167,#413ADA);
+  background-image: linear-gradient(to right, #f8c853, #0ec167, #413ada);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .join-gradiant {
-  background-image: linear-gradient(to right, #F65B35, #fff,#0EC167);
+  background-image: linear-gradient(to right, #f65b35, #fff, #0ec167);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .wizard-gradiant {
-  background-image: linear-gradient(to right, #ED1566, #F8C853);
+  background-image: linear-gradient(to right, #ed1566, #f8c853);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .text-gradiant {
-  background-image: linear-gradient(to right, #413ADA, #0EC167,#ED1566);
+  background-image: linear-gradient(to right, #413ada, #0ec167, #ed1566);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .insta-gradiant {
-  background-image: linear-gradient(to right, #413ADA,#ED1566, #0EC167,);
+  background-image: linear-gradient(to right, #413ada, #ed1566, #0ec167);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-input[type=number]{
+input[type="number"] {
   -moz-appearance: textfield;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @layer utilities {
-  .header-link{
-    @apply relative  hover:text-pink cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-pink before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-pink after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]
+  .header-link {
+    @apply relative hover:text-[#ED1566] text-base cursor-pointer  before:transition-[width]  before:absolute before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:bottom-0 after:right-[50%];
   }
-  .main-div{
-    @apply  w-full flex flex-col justify-center items-center py-6 sm:py-10 md:py-14 lg:py-20 
+  .main-div {
+    @apply w-full flex flex-col justify-center items-center py-6 sm:py-10 md:py-14 lg:py-20;
   }
-  .sub-div{
-    @apply flex flex-col justify-center  h-full  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen
+  .sub-div {
+    @apply flex flex-col justify-center  h-full  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen;
   }
-  .main{
-    @apply  w-full flex flex-col justify-center items-center 
+  .main {
+    @apply w-full flex flex-col justify-center items-center;
   }
-  .sub{
-    @apply flex flex-col justify-center  h-full  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen py-6 sm:py-10 md:py-14 lg:py-20 
+  .sub {
+    @apply flex flex-col justify-center  h-full  px-5 md:px-16 lg:px-20  w-full max-w-screen-max-screen py-6 sm:py-10 md:py-14 lg:py-20;
   }
-  .input-div{
-    @apply w-full border-b mb-10 lg:mb-5 xl:mb-10
+  .input-div {
+    @apply w-full border-b mb-10 lg:mb-5 xl:mb-10;
   }
-  .input-label{
-    @apply text-base font-medium mb-4
+  .input-label {
+    @apply text-base font-medium mb-4;
   }
-  .input{
-    @apply w-full focus:bg-transparent focus:border-none py-1 bg-transparent focus:outline-none pl-1
+  .input {
+    @apply w-full focus:bg-transparent focus:border-none py-1 bg-transparent focus:outline-none pl-1;
   }
-
 }
