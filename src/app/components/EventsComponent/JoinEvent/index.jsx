@@ -36,6 +36,7 @@ const JoinEvents = () => {
                 <input
                   type="text"
                   name="firstname"
+                  required
                   id="firstName"
                   className="input"
                 />
@@ -43,11 +44,12 @@ const JoinEvents = () => {
 
               <div className="input-div ">
                 <label htmlFor="Lastname" className="input-label">
-                  Last Name
+                  First Name
                 </label>
                 <input
                   type="text"
                   name="Lastname"
+                  required
                   id="LastName"
                   className="input"
                 />
@@ -62,6 +64,7 @@ const JoinEvents = () => {
                 type="text"
                 name="address"
                 id="address"
+                required
                 className="input"
               />
             </div>
@@ -70,7 +73,13 @@ const JoinEvents = () => {
                 <label htmlFor="Email" className="input-label">
                   Email
                 </label>
-                <input type="email" name="email" id="email" className="input" />
+                <input
+                  type="email"
+                  required
+                  name="email"
+                  id="email"
+                  className="input"
+                />
               </div>
               <div className="input-div ">
                 <label htmlFor="phone" className="input-label">
@@ -79,17 +88,19 @@ const JoinEvents = () => {
                 <input
                   type="number"
                   name="phone"
+                  required
                   id="phone"
                   className="input"
                 />
               </div>
             </div>
             <div className="input-div ">
-              <label htmlFor="Message" className="input-label">
+              <label htmlFor="Message" required className="input-label">
                 Message
               </label>
               <input
                 type="textarea"
+                required
                 name="message"
                 id="message"
                 className="input"

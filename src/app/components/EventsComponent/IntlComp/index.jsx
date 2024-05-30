@@ -10,6 +10,7 @@ const IntlComp = () => {
       btnClass: "",
       bgimg: "./assets/events/e1.svg",
       icon: "./assets/events/es1.svg",
+      estar: "./assets/events/estar.svg",
     },
     {
       title: "Bee Buz",
@@ -18,6 +19,7 @@ const IntlComp = () => {
       btnClass: "rotate-90",
       bgimg: "./assets/events/e2.svg",
       icon: "./assets/events/es2.svg",
+      estar: "./assets/events/estar.svg",
     },
     {
       title: "Science",
@@ -26,6 +28,7 @@ const IntlComp = () => {
       btnClass: "rotate-90",
       bgimg: "./assets/events/e3.svg",
       icon: "./assets/events/es3.svg",
+      estar: "./assets/events/estar.svg",
     },
     {
       title: "Coding Hackathon",
@@ -34,6 +37,7 @@ const IntlComp = () => {
       btnClass: "rotate-90",
       bgimg: "./assets/events/e4.svg",
       icon: "./assets/events/es4.svg",
+      estar: "./assets/events/whiteCirle.svg",
     },
   ];
   return (
@@ -78,7 +82,7 @@ const IntlComp = () => {
               <img src={d.bgimg} alt="bg" />
               <div className="absolute w-full flex flex-col items-center top-10  -translate-x-1/2 left-1/2 -translate">
                 <div className="relative">
-                  <img src="./assets/events/estar.svg" alt="bg" className="" />
+                  <img src={d.estar} alt="bg" className="" />
                   <img
                     src={d.icon}
                     alt="bg"

@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./global.css";
+import Head from "next/head";
 // import ReduxProvider from "@/store/ReduxProvider";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,6 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="shortcut icon" href="/logo512.png" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCloseSharp, IoMail } from "react-icons/io5";
 import {
@@ -24,7 +24,9 @@ const Header = ({ bgColor }) => {
   const handleOpenSidebar = () => {
     setShowSidebar(true);
   };
-
+  useEffect(() => {
+    setShowSidebar(false);
+  }, []);
   const handleCloseSidebar = () => {
     setShowSidebar(false);
   };
@@ -198,8 +200,7 @@ const Header = ({ bgColor }) => {
                       Our STEM Courses
                     </p>
                   </Link>
-                  {/* <Link href={"/stemstartup"}> */}
-                  <Link href="#">
+                  <Link href={"/stemstartup"}>
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "/stemstartup" && "text-pink"
@@ -208,8 +209,8 @@ const Header = ({ bgColor }) => {
                       STEM Startup School
                     </p>
                   </Link>
-                  {/* <Link href={"./"}> */}
-                  <Link href="#">
+
+                  <Link href="/#work-with-us">
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "./" && "text-pink"
@@ -218,8 +219,7 @@ const Header = ({ bgColor }) => {
                       Earn With Us
                     </p>
                   </Link>
-                  {/* <Link href={"/events"}> */}
-                  <Link href="#">
+                  <Link href={"/events"}>
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "/events" && "text-pink"
@@ -228,8 +228,7 @@ const Header = ({ bgColor }) => {
                       Events
                     </p>
                   </Link>
-                  {/* <Link href={"/support"}> */}
-                  <Link href="#">
+                  <Link href={"/support"}>
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "/support" && "text-pink"
@@ -238,8 +237,7 @@ const Header = ({ bgColor }) => {
                       Support Us
                     </p>
                   </Link>
-                  {/* <Link href={"/press"}> */}
-                  <Link href="#">
+                  <Link href={"/press"}>
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "/press" && "text-pink"

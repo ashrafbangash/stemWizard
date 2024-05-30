@@ -1,12 +1,13 @@
 import React from "react";
-
+import Join from "../../../../../public/assets/stemStartup/Join the Hub.svg";
+import Link from "next/link";
 const StartupCategory = () => {
   return (
     <>
       <div className="main bg-white">
         <div className="sub items-center relative">
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 items-center ">
-            <div>
+            <div className="border">
               <h1 className="text-2xl lg:text-[40px]  font-medium capitalize mb-10">
                 Categories for startups
               </h1>
@@ -29,16 +30,16 @@ const StartupCategory = () => {
                 expand especially women .
               </p>
             </div>
-            <div className="relative z-0 overflow-hidden">
+            <div className="relative z-0 overflow-hidden border sm:m-5">
               <img
                 src="./assets/startup/stabg.svg"
                 alt="startup"
-                className="z-10 ml-10"
+                className="z-10 ml-4"
               />
               <img
                 src="./assets/startup/staborder.svg"
                 alt="startup"
-                className="absolute z-0 top-0 -left-10"
+                className="absolute z-0 top-0 -left-4"
               />
               <img
                 src="./assets/startup/startup4.svg"
@@ -72,11 +73,12 @@ const StartupCategory = () => {
             Join the hub
           </h1>
           <p className="font-medium text-white">
-            c:\Users\hero5\Downloads\joinbg.svg
-          </p>
-          <p className="max-w-4xl  text-red break-all text-center text-wrap font-medium">
             To join our hub go to the link given below and fill out the form
-            https://docs.google.com/forms/d/1BFfa09o8o2hCDt7Dix4d7SMNIlhQMii8zMKcTT1qP9E/edit?chromeless=1
+          </p>
+          <p className="max-w-4xl hover:underline  text-white break-all text-center text-wrap font-sm mt-3">
+            <Link href="https://docs.google.com/forms/d/1BFfa09o8o2hCDt7Dix4d7SMNIlhQMii8zMKcTT1qP9E/edit?chromeless=1">
+              https://docs.google.com/forms/d/1BFfa09o8o2hCDt7Dix4d7SMNIlhQMii8zMKcTT1qP9E/edit?chromeless=1
+            </Link>
           </p>
         </div>
         <img
