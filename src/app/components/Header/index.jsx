@@ -246,8 +246,7 @@ const Header = ({ bgColor }) => {
                       Press
                     </p>
                   </Link>
-                  {/* <Link href={"/faqs"}> */}
-                  <Link href="#">
+                  <Link href={"/faqs"}>
                     <p
                       className={`border-b border-gray hover:shadow-md ${
                         pathname === "/faqs" && "text-pink"
@@ -256,8 +255,7 @@ const Header = ({ bgColor }) => {
                       FAQS
                     </p>
                   </Link>
-                  {/* <Link href={"/blogs"}> */}
-                  <Link href="#">
+                  <Link href={"/blogs"}>
                     <p
                       className={`border-b border-gray hover:shadow- ${
                         pathname === "/blogs" && "text-pink"
